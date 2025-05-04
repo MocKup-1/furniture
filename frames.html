@@ -3,55 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Gallery</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-        }
-        .product {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .product img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 4px;
-            margin-bottom: 10px;
-        }
-        .product-name {
-            font-weight: bold;
-            margin: 5px 0;
-        }
-        .buy-btn {
-            background-color: hsl(266, 96%, 44%);
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-top: 5px;
-        }
-        .buy-btn:hover {
-            background-color: hsl(266, 96%, 44%);
-        }
-    </style>
+    <title>ALMAR FURNITURE INTERIOR - Premium Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styl.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -64,16 +18,9 @@
             
             <nav class="navbar">
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#products">Our Products</a></li>
-                    <li><a href="#more-products">More Products</a></li>
-                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
             </nav>
             <div class="social-icons">
                 <a href="https://wa.me/256702130441" class="whatsapp-icon" target="_blank">
@@ -83,121 +30,21 @@
                     <i class="fas fa-phone"></i>
                 </a>
             </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
-    <h1>Product Gallery</h1>
-    
-    <div class="gallery">
-        <!-- Product 1 -->
-        <div class="product">
-            <img src="frames/phone" alt="Smartphone">
-            <div class="product-name">Smartphone</div>
-            <button class="buy-btn">Buy</button>
-        </div>
+    <main class="container">
+        <h1 class="main-title">Our Premium Furniture Collection</h1>
         
-        <!-- Product 2 -->
-        <div class="product">
-            <img src="frames/p" alt="Laptop">
-            <div class="product-name">Laptop</div>
-            <button class="buy-btn">Buy</button>
+        <div class="gallery">
+            <!-- Products will be loaded dynamically by JavaScript -->
         </div>
-        
-        <!-- Product 3 -->
-        <div class="product">
-            <img src="frames/hones" alt="Headphones">
-            <div class="product-name">Headphones</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 4 -->
-        <div class="product">
-            <img src="frames/+Watch" alt="Smart Watch">
-            <div class="product-name">Smart Watch</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 5 -->
-        <div class="product">
-            <img src="frames/t" alt="Tablet">
-            <div class="product-name">Tablet</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 6 -->
-        <div class="product">
-            <img src="frames/1.jpg" alt="Camera">
-            <div class="product-name">frame 1</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 7 -->
-        <div class="product">
-            <img src="frames/2.jpg" alt="frame 2">
-            <div class="product-name">frame 2</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 8 -->
-        <div class="product">
-            <img src="frames/3.jpg" alt="frame 3">
-            <div class="product-name">frame 3</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 9 -->
-        <div class="product">
-            <img src="frames/4.jpg" alt="frame 4">
-            <div class="product-name">frame 4</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 10 -->
-        <div class="product">
-            <img src="frames/5.jpg" alt="frame 5">
-            <div class="product-name">frame 5</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 11 -->
-        <div class="product">
-            <img src="frames/6.jpg" alt="frame 6">
-            <div class="product-name">frame 6</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 12 -->
-        <div class="product">
-            <img src="frames/7.jpg" alt="frame 7">
-            <div class="product-name">frame 7</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 13 -->
-        <div class="product">
-            <img src="frames/8.jpg" alt="frames 8">
-            <div class="product-name">Hard Drive</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 14 -->
-        <div class="product">
-            <img src="frames/9.jpg" alt="frame 9">
-            <div class="product-name">frame 9</div>
-            <button class="buy-btn">Buy</button>
-        </div>
-        
-        <!-- Product 15 -->
-        <div class="product">
-            <img src="frames/10.jpg" alt="frames 10">
-            <div class="product-name">frame 10</div>
-            <button class="buy-btn">Buy</button>
-        </div>
+    </main>
 
-
-
-
-             <!-- Floating WhatsApp Button -->
+    <!-- Floating WhatsApp Button -->
     <div class="floating-whatsapp">
         <a href="https://wa.me/256702130441" target="_blank">
             <i class="fab fa-whatsapp"></i>
@@ -215,7 +62,7 @@
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-tiktok"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://wa.me/256702130441"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
@@ -239,7 +86,7 @@
                     <p>Subscribe for updates and offers</p>
                     <form id="newsletterForm">
                         <input type="email" placeholder="Your Email" required>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                        <button type="submit" class="btn-primary">Subscribe</button>
                     </form>
                 </div>
             </div>
@@ -249,7 +96,6 @@
         </div>
     </footer>
 
-        </div>
-    </div>
+    <script src="scrip.js"></script>
 </body>
 </html>
