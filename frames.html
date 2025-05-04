@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .product-name {
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .buy-btn {
+            background-color: hsl(266, 96%, 44%);
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+        .buy-btn:hover {
+            background-color: hsl(266, 96%, 44%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>ALMAR FURNITURE INTERIOR</h1>
+                <p>Design • Create • Transform</p>
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Our Products</a></li>
+                    <li><a href="#more-products">More Products</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            <div class="social-icons">
+                <a href="https://wa.me/256702130441" class="whatsapp-icon" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="tel:+256702130441" class="phone-icon">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <h1>Product Gallery</h1>
+    
+    <div class="gallery">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="frames/phone" alt="Smartphone">
+            <div class="product-name">Smartphone</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="frames/p" alt="Laptop">
+            <div class="product-name">Laptop</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="frames/hones" alt="Headphones">
+            <div class="product-name">Headphones</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="product">
+            <img src="frames/+Watch" alt="Smart Watch">
+            <div class="product-name">Smart Watch</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 5 -->
+        <div class="product">
+            <img src="frames/t" alt="Tablet">
+            <div class="product-name">Tablet</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 6 -->
+        <div class="product">
+            <img src="frames/1.jpg" alt="Camera">
+            <div class="product-name">frame 1</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 7 -->
+        <div class="product">
+            <img src="frames/2.jpg" alt="frame 2">
+            <div class="product-name">frame 2</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 8 -->
+        <div class="product">
+            <img src="frames/3.jpg" alt="frame 3">
+            <div class="product-name">frame 3</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 9 -->
+        <div class="product">
+            <img src="frames/4.jpg" alt="frame 4">
+            <div class="product-name">frame 4</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 10 -->
+        <div class="product">
+            <img src="frames/5.jpg" alt="frame 5">
+            <div class="product-name">frame 5</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 11 -->
+        <div class="product">
+            <img src="frames/6.jpg" alt="frame 6">
+            <div class="product-name">frame 6</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 12 -->
+        <div class="product">
+            <img src="frames/7.jpg" alt="frame 7">
+            <div class="product-name">frame 7</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 13 -->
+        <div class="product">
+            <img src="frames/8.jpg" alt="frames 8">
+            <div class="product-name">Hard Drive</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 14 -->
+        <div class="product">
+            <img src="frames/9.jpg" alt="frame 9">
+            <div class="product-name">frame 9</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+        
+        <!-- Product 15 -->
+        <div class="product">
+            <img src="frames/10.jpg" alt="frames 10">
+            <div class="product-name">frame 10</div>
+            <button class="buy-btn">Buy</button>
+        </div>
+
+
+
+
+             <!-- Floating WhatsApp Button -->
+    <div class="floating-whatsapp">
+        <a href="https://wa.me/256702130441" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>ALMAR FURNITURE INTERIOR</h3>
+                    <p>We design, create and transform spaces with premium furniture solutions.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Nabingo, Masaka road, Kampala</p>
+                    <p><i class="fas fa-phone"></i> +256 702 13030441</p>
+                    <p><i class="fas fa-envelope"></i> assenyange6@gmail.com</p>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates and offers</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 ALMAR FURNITURE INTERIOR. All Rights Reserved. Designed by SHAFT TECH</p>
+            </div>
+        </div>
+    </footer>
+
+        </div>
+    </div>
+</body>
+</html>
